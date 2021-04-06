@@ -1,0 +1,18 @@
+html {
+    font-family: sans-serif;
+  }
+  
+  body {
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+  }
+
+  .button{
+    background-color: rgb(162, 177, 177);
+    width: 3em;
+    height: 3em;
+  }
+
+  

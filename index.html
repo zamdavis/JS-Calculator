@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+
+
+
+</head>
+<body>
+    <h1>Calculator</h1>
+
+    <p>Please enter a value in the emtpy box below, then choose the button with the arithmetic operation you would like to perform, and then finally enter the second value of the opreation.</p>
+
+    <form id="shape">
+      <label for="fValuefield" class="tbox">1st value: </label>
+      <input type="text" id="uValueField" autofocus placeholder="Enter the first value">
+      <div class="buttons">
+          <button type="button" onclick="multiplicar();" class="button" id="multi">*</button>
+          <button type="button" onclick="dividir();" class="button" id="divi">/</button>
+          <button type="button" onclick="sumar();" class="button" id="sum">+</button>
+          <button type="button" onclick="restar();"  class="button" id="rest">-</button>
+        </div>
+        <label for="sValueField" class="tbox">2nd value: </label>
+        <input type="text" id="dValueField" placeholder="Enter the second value">
+        <p>El resultado es: <span id="el-resultado"></p>
+    </form>
+
+    
+    <button onclick="limpiar();">Limpiar campos</button>
+</body>
+</html>
